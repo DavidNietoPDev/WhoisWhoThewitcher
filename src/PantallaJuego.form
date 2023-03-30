@@ -1,0 +1,2796 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="mbMenu">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="4d" green="4d" red="4d" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="4d" green="4d" red="4d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Start"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="DialogInput" size="14" style="1"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jMenu1MouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jMenu1MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jMenu1MouseExited"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenu1ActionPerformed"/>
+          </Events>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="mInstructions">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="4d" green="4d" red="4d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Instruction"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="DialogInput" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="mInstructionsMouseClicked"/>
+          </Events>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="4d" green="4d" red="4d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Scores"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="DialogInput" size="14" style="1"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jMenu3MouseClicked"/>
+          </Events>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="4d" green="4d" red="4d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Exit"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="DialogInput" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jMenu2MouseClicked"/>
+          </Events>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1000, 1000]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="mbMenu"/>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,4,11,0,0,4,-46"/>
+    <SyntheticProperty name="formPosition" type="java.awt.Point" value="-84,-19,0,5,115,114,0,14,106,97,118,97,46,97,119,116,46,80,111,105,110,116,-74,-60,-118,114,52,126,-56,38,2,0,2,73,0,1,120,73,0,1,121,120,112,0,0,0,0,0,0,0,0"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generatePosition" type="boolean" value="true"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="33" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="33" type="rgb"/>
+        </Property>
+        <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor Por defecto"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jPanel6" pref="825" max="32767" attributes="0"/>
+                          <Component id="pAnswers" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="pMusic" min="-2" pref="189" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="0" pref="3" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="pButtons" min="-2" pref="371" max="-2" attributes="0"/>
+                                          <Component id="pPreguntas" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="pTimer" max="32767" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="pTimer" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="pPreguntas" min="-2" pref="534" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                              <Component id="pMusic" min="-2" pref="52" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="pButtons" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="6" max="32767" attributes="0"/>
+                              <Component id="pAnswers" min="-2" pref="155" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel6">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="33" red="33" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel2">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[100, 100]"/>
+                    </Property>
+                  </Properties>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="lPers1">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Im&#xe1;genes/Avallac.png"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                            <MatteColorBorder bottom="5" left="5" right="5" top="5"/>
+                          </Border>
+                        </Property>
+                        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[80, 80]"/>
+                        </Property>
+                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[100, 100]"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lPers1MouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="0" gridY="0" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="1.0" weightY="1.0"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lPers4">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Im&#xe1;genes/Eskel.png"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                            <MatteColorBorder bottom="5" left="5" right="5" top="5"/>
+                          </Border>
+                        </Property>
+                        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[100, 100]"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lPers4MouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="1" gridY="1" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="1.0" weightY="1.0"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lPers12">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Im&#xe1;genes/Hjalmar.png"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                            <MatteColorBorder bottom="5" left="5" right="5" top="5"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lPers12MouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="1" gridY="2" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="1.0" weightY="1.0"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lPers5">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Im&#xe1;genes/Keira.png"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                            <MatteColorBorder bottom="5" left="5" right="5" top="5"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lPers5MouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="3" gridY="3" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="1.0" weightY="1.0"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lPers6">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Im&#xe1;genes/Fringilla.png"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                            <MatteColorBorder bottom="5" left="5" right="5" top="5"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lPers6MouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="-1" gridY="-1" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="1.0" weightY="1.0"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lPers11">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Im&#xe1;genes/Shani.png"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                            <MatteColorBorder bottom="5" left="5" right="5" top="5"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lPers11MouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="0" gridY="1" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="1.0" weightY="1.0"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lPers9">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Im&#xe1;genes/Geralt.png"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                            <MatteColorBorder bottom="5" left="5" right="5" top="5"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lPers9MouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="3" gridY="1" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="1.0" weightY="1.0"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lPers10">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Im&#xe1;genes/Triss.png"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                            <MatteColorBorder bottom="5" left="5" right="5" top="5"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lPers10MouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="2" gridY="1" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="1.0" weightY="1.0"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lPers7">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Im&#xe1;genes/Lambert.png"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                            <MatteColorBorder bottom="5" left="5" right="5" top="5"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lPers7MouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="2" gridY="0" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="1.0" weightY="1.0"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lPers8">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Im&#xe1;genes/Jaskier.png"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                            <MatteColorBorder bottom="5" left="5" right="5" top="5"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lPers8MouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="3" gridY="0" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="1.0" weightY="1.0"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lPers13">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Im&#xe1;genes/Vesemir.png"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                            <MatteColorBorder bottom="5" left="5" right="5" top="5"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lPers13MouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="0" gridY="2" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="1.0" weightY="1.0"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lPers0">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Im&#xe1;genes/Cerys.png"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                            <MatteColorBorder bottom="5" left="5" right="5" top="5"/>
+                          </Border>
+                        </Property>
+                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[152, 158]"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lPers0MouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="0" gridY="3" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="1.0" weightY="1.0"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lPers2">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Im&#xe1;genes/Cirilla.png"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                            <MatteColorBorder bottom="5" left="5" right="5" top="5"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lPers2MouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="1" gridY="3" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="1.0" weightY="1.0"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lPers3">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Im&#xe1;genes/Emhyr.png"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                            <MatteColorBorder bottom="5" left="5" right="5" top="5"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lPers3MouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="2" gridY="3" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="1.0" weightY="1.0"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lPers14">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Im&#xe1;genes/Von everec.png"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                            <MatteColorBorder bottom="5" left="5" right="5" top="5"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lPers14MouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="3" gridY="2" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="1.0" weightY="1.0"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lPers15">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Im&#xe1;genes/Yennefer.png"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                            <MatteColorBorder bottom="5" left="5" right="5" top="5"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lPers15MouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="2" gridY="2" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="1.0" weightY="1.0"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                  </SubComponents>
+                  <LayoutCode>
+                    <CodeStatement>
+                      <CodeExpression id="1_jPanel2Layout">
+                        <CodeVariable name="jPanel2Layout" type="4096" declaredType="java.awt.GridBagLayout"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="CodeConstructor">
+                            <CodeConstructor class="java.awt.GridBagLayout" parameterTypes=""/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeExpression">
+                        <CodeExpression id="1_jPanel2Layout"/>
+                      </StatementProvider>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="1_jPanel2Layout"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="columnWidths" class="java.awt.GridBagLayout"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="2">
+                          <ExpressionOrigin>
+                            <Value type="[I" editor="org.netbeans.modules.form.layoutsupport.delegates.GridBagLayoutSupport$IntArrayPropertyEditor">
+                              <PropertyValue value="[0]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="1_jPanel2Layout"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="rowHeights" class="java.awt.GridBagLayout"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="3">
+                          <ExpressionOrigin>
+                            <Value type="[I" editor="org.netbeans.modules.form.layoutsupport.delegates.GridBagLayoutSupport$IntArrayPropertyEditor">
+                              <PropertyValue value="[0]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="1_jPanel2Layout"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="columnWeights" class="java.awt.GridBagLayout"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="4">
+                          <ExpressionOrigin>
+                            <Value type="[D" editor="org.netbeans.modules.form.layoutsupport.delegates.GridBagLayoutSupport$DoubleArrayPropertyEditor">
+                              <PropertyValue value="[1.0]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="1_jPanel2Layout"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="rowWeights" class="java.awt.GridBagLayout"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="5">
+                          <ExpressionOrigin>
+                            <Value type="[D" editor="org.netbeans.modules.form.layoutsupport.delegates.GridBagLayoutSupport$DoubleArrayPropertyEditor">
+                              <PropertyValue value="[1.0]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="6_jPanel2">
+                        <CodeVariable name="jPanel2" type="8194" declaredType="javax.swing.JPanel"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="ComponentRef">
+                            <ComponentRef name="jPanel2"/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeMethod">
+                        <CodeMethod name="setLayout" class="java.awt.Container" parameterTypes="java.awt.LayoutManager"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="1_jPanel2Layout"/>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="7_gridBagConstraints">
+                        <CodeVariable name="gridBagConstraints" type="20480" declaredType="java.awt.GridBagConstraints"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="CodeConstructor">
+                            <CodeConstructor class="java.awt.GridBagConstraints" parameterTypes=""/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeExpression">
+                        <CodeExpression id="7_gridBagConstraints"/>
+                      </StatementProvider>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="7_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="8">
+                          <ExpressionOrigin>
+                            <Value type="int" value="0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="7_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridy" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="9">
+                          <ExpressionOrigin>
+                            <Value type="int" value="0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="7_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="fill" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="10">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="7_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weightx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="11">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="7_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weighty" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="12">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="7_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="insets" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="13">
+                          <ExpressionOrigin>
+                            <Value type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                              <Insets value="[10, 10, 10, 10]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="6_jPanel2"/>
+                      <StatementProvider type="CodeMethod">
+                        <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component, java.lang.Object"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="14_lPers1">
+                          <CodeVariable name="lPers1" type="8194" declaredType="javax.swing.JLabel"/>
+                          <ExpressionOrigin>
+                            <ExpressionProvider type="ComponentRef">
+                              <ComponentRef name="lPers1"/>
+                            </ExpressionProvider>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                        <CodeExpression id="7_gridBagConstraints"/>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="15_gridBagConstraints">
+                        <CodeVariable name="gridBagConstraints"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="CodeConstructor">
+                            <CodeConstructor class="java.awt.GridBagConstraints" parameterTypes=""/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeExpression">
+                        <CodeExpression id="15_gridBagConstraints"/>
+                      </StatementProvider>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="15_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="16">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="15_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridy" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="17">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="15_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="fill" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="18">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="15_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weightx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="19">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="15_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weighty" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="20">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="15_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="insets" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="21">
+                          <ExpressionOrigin>
+                            <Value type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                              <Insets value="[10, 10, 10, 10]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="6_jPanel2"/>
+                      <StatementProvider type="CodeMethod">
+                        <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component, java.lang.Object"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="22_lPers4">
+                          <CodeVariable name="lPers4" type="8194" declaredType="javax.swing.JLabel"/>
+                          <ExpressionOrigin>
+                            <ExpressionProvider type="ComponentRef">
+                              <ComponentRef name="lPers4"/>
+                            </ExpressionProvider>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                        <CodeExpression id="15_gridBagConstraints"/>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="23_gridBagConstraints">
+                        <CodeVariable name="gridBagConstraints"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="CodeConstructor">
+                            <CodeConstructor class="java.awt.GridBagConstraints" parameterTypes=""/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeExpression">
+                        <CodeExpression id="23_gridBagConstraints"/>
+                      </StatementProvider>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="23_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="24">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="23_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridy" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="25">
+                          <ExpressionOrigin>
+                            <Value type="int" value="2"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="23_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="fill" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="26">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="23_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weightx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="27">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="23_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weighty" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="28">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="23_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="insets" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="29">
+                          <ExpressionOrigin>
+                            <Value type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                              <Insets value="[10, 10, 10, 10]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="6_jPanel2"/>
+                      <StatementProvider type="CodeMethod">
+                        <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component, java.lang.Object"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="30_lPers12">
+                          <CodeVariable name="lPers12" type="8194" declaredType="javax.swing.JLabel"/>
+                          <ExpressionOrigin>
+                            <ExpressionProvider type="ComponentRef">
+                              <ComponentRef name="lPers12"/>
+                            </ExpressionProvider>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                        <CodeExpression id="23_gridBagConstraints"/>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="31_gridBagConstraints">
+                        <CodeVariable name="gridBagConstraints"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="CodeConstructor">
+                            <CodeConstructor class="java.awt.GridBagConstraints" parameterTypes=""/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeExpression">
+                        <CodeExpression id="31_gridBagConstraints"/>
+                      </StatementProvider>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="31_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="32">
+                          <ExpressionOrigin>
+                            <Value type="int" value="3"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="31_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridy" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="33">
+                          <ExpressionOrigin>
+                            <Value type="int" value="3"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="31_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="fill" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="34">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="31_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weightx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="35">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="31_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weighty" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="36">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="31_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="insets" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="37">
+                          <ExpressionOrigin>
+                            <Value type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                              <Insets value="[10, 10, 10, 10]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="6_jPanel2"/>
+                      <StatementProvider type="CodeMethod">
+                        <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component, java.lang.Object"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="38_lPers5">
+                          <CodeVariable name="lPers5" type="8194" declaredType="javax.swing.JLabel"/>
+                          <ExpressionOrigin>
+                            <ExpressionProvider type="ComponentRef">
+                              <ComponentRef name="lPers5"/>
+                            </ExpressionProvider>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                        <CodeExpression id="31_gridBagConstraints"/>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="39_gridBagConstraints">
+                        <CodeVariable name="gridBagConstraints"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="CodeConstructor">
+                            <CodeConstructor class="java.awt.GridBagConstraints" parameterTypes=""/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeExpression">
+                        <CodeExpression id="39_gridBagConstraints"/>
+                      </StatementProvider>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="39_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="fill" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="40">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="39_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weightx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="41">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="39_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weighty" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="42">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="39_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="insets" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="43">
+                          <ExpressionOrigin>
+                            <Value type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                              <Insets value="[10, 10, 10, 10]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="6_jPanel2"/>
+                      <StatementProvider type="CodeMethod">
+                        <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component, java.lang.Object"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="44_lPers6">
+                          <CodeVariable name="lPers6" type="8194" declaredType="javax.swing.JLabel"/>
+                          <ExpressionOrigin>
+                            <ExpressionProvider type="ComponentRef">
+                              <ComponentRef name="lPers6"/>
+                            </ExpressionProvider>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                        <CodeExpression id="39_gridBagConstraints"/>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="45_gridBagConstraints">
+                        <CodeVariable name="gridBagConstraints"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="CodeConstructor">
+                            <CodeConstructor class="java.awt.GridBagConstraints" parameterTypes=""/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeExpression">
+                        <CodeExpression id="45_gridBagConstraints"/>
+                      </StatementProvider>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="45_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="46">
+                          <ExpressionOrigin>
+                            <Value type="int" value="0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="45_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridy" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="47">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="45_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="fill" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="48">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="45_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weightx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="49">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="45_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weighty" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="50">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="45_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="insets" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="51">
+                          <ExpressionOrigin>
+                            <Value type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                              <Insets value="[10, 10, 10, 10]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="6_jPanel2"/>
+                      <StatementProvider type="CodeMethod">
+                        <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component, java.lang.Object"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="52_lPers11">
+                          <CodeVariable name="lPers11" type="8194" declaredType="javax.swing.JLabel"/>
+                          <ExpressionOrigin>
+                            <ExpressionProvider type="ComponentRef">
+                              <ComponentRef name="lPers11"/>
+                            </ExpressionProvider>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                        <CodeExpression id="45_gridBagConstraints"/>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="53_gridBagConstraints">
+                        <CodeVariable name="gridBagConstraints"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="CodeConstructor">
+                            <CodeConstructor class="java.awt.GridBagConstraints" parameterTypes=""/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeExpression">
+                        <CodeExpression id="53_gridBagConstraints"/>
+                      </StatementProvider>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="53_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="54">
+                          <ExpressionOrigin>
+                            <Value type="int" value="3"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="53_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridy" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="55">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="53_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="fill" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="56">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="53_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weightx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="57">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="53_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weighty" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="58">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="53_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="insets" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="59">
+                          <ExpressionOrigin>
+                            <Value type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                              <Insets value="[10, 10, 10, 10]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="6_jPanel2"/>
+                      <StatementProvider type="CodeMethod">
+                        <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component, java.lang.Object"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="60_lPers9">
+                          <CodeVariable name="lPers9" type="8194" declaredType="javax.swing.JLabel"/>
+                          <ExpressionOrigin>
+                            <ExpressionProvider type="ComponentRef">
+                              <ComponentRef name="lPers9"/>
+                            </ExpressionProvider>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                        <CodeExpression id="53_gridBagConstraints"/>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="61_gridBagConstraints">
+                        <CodeVariable name="gridBagConstraints"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="CodeConstructor">
+                            <CodeConstructor class="java.awt.GridBagConstraints" parameterTypes=""/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeExpression">
+                        <CodeExpression id="61_gridBagConstraints"/>
+                      </StatementProvider>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="61_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="62">
+                          <ExpressionOrigin>
+                            <Value type="int" value="2"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="61_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridy" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="63">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="61_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="fill" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="64">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="61_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weightx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="65">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="61_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weighty" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="66">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="61_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="insets" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="67">
+                          <ExpressionOrigin>
+                            <Value type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                              <Insets value="[10, 10, 10, 10]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="6_jPanel2"/>
+                      <StatementProvider type="CodeMethod">
+                        <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component, java.lang.Object"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="68_lPers10">
+                          <CodeVariable name="lPers10" type="8194" declaredType="javax.swing.JLabel"/>
+                          <ExpressionOrigin>
+                            <ExpressionProvider type="ComponentRef">
+                              <ComponentRef name="lPers10"/>
+                            </ExpressionProvider>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                        <CodeExpression id="61_gridBagConstraints"/>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="69_gridBagConstraints">
+                        <CodeVariable name="gridBagConstraints"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="CodeConstructor">
+                            <CodeConstructor class="java.awt.GridBagConstraints" parameterTypes=""/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeExpression">
+                        <CodeExpression id="69_gridBagConstraints"/>
+                      </StatementProvider>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="69_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="70">
+                          <ExpressionOrigin>
+                            <Value type="int" value="2"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="69_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridy" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="71">
+                          <ExpressionOrigin>
+                            <Value type="int" value="0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="69_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="fill" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="72">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="69_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weightx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="73">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="69_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weighty" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="74">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="69_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="insets" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="75">
+                          <ExpressionOrigin>
+                            <Value type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                              <Insets value="[10, 10, 10, 10]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="6_jPanel2"/>
+                      <StatementProvider type="CodeMethod">
+                        <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component, java.lang.Object"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="76_lPers7">
+                          <CodeVariable name="lPers7" type="8194" declaredType="javax.swing.JLabel"/>
+                          <ExpressionOrigin>
+                            <ExpressionProvider type="ComponentRef">
+                              <ComponentRef name="lPers7"/>
+                            </ExpressionProvider>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                        <CodeExpression id="69_gridBagConstraints"/>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="77_gridBagConstraints">
+                        <CodeVariable name="gridBagConstraints"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="CodeConstructor">
+                            <CodeConstructor class="java.awt.GridBagConstraints" parameterTypes=""/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeExpression">
+                        <CodeExpression id="77_gridBagConstraints"/>
+                      </StatementProvider>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="77_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="78">
+                          <ExpressionOrigin>
+                            <Value type="int" value="3"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="77_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridy" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="79">
+                          <ExpressionOrigin>
+                            <Value type="int" value="0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="77_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="fill" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="80">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="77_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weightx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="81">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="77_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weighty" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="82">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="77_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="insets" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="83">
+                          <ExpressionOrigin>
+                            <Value type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                              <Insets value="[10, 10, 10, 10]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="6_jPanel2"/>
+                      <StatementProvider type="CodeMethod">
+                        <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component, java.lang.Object"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="84_lPers8">
+                          <CodeVariable name="lPers8" type="8194" declaredType="javax.swing.JLabel"/>
+                          <ExpressionOrigin>
+                            <ExpressionProvider type="ComponentRef">
+                              <ComponentRef name="lPers8"/>
+                            </ExpressionProvider>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                        <CodeExpression id="77_gridBagConstraints"/>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="85_gridBagConstraints">
+                        <CodeVariable name="gridBagConstraints"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="CodeConstructor">
+                            <CodeConstructor class="java.awt.GridBagConstraints" parameterTypes=""/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeExpression">
+                        <CodeExpression id="85_gridBagConstraints"/>
+                      </StatementProvider>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="85_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="86">
+                          <ExpressionOrigin>
+                            <Value type="int" value="0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="85_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridy" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="87">
+                          <ExpressionOrigin>
+                            <Value type="int" value="2"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="85_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="fill" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="88">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="85_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weightx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="89">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="85_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weighty" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="90">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="85_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="insets" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="91">
+                          <ExpressionOrigin>
+                            <Value type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                              <Insets value="[10, 10, 10, 10]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="6_jPanel2"/>
+                      <StatementProvider type="CodeMethod">
+                        <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component, java.lang.Object"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="92_lPers13">
+                          <CodeVariable name="lPers13" type="8194" declaredType="javax.swing.JLabel"/>
+                          <ExpressionOrigin>
+                            <ExpressionProvider type="ComponentRef">
+                              <ComponentRef name="lPers13"/>
+                            </ExpressionProvider>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                        <CodeExpression id="85_gridBagConstraints"/>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="93_gridBagConstraints">
+                        <CodeVariable name="gridBagConstraints"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="CodeConstructor">
+                            <CodeConstructor class="java.awt.GridBagConstraints" parameterTypes=""/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeExpression">
+                        <CodeExpression id="93_gridBagConstraints"/>
+                      </StatementProvider>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="93_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="94">
+                          <ExpressionOrigin>
+                            <Value type="int" value="0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="93_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridy" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="95">
+                          <ExpressionOrigin>
+                            <Value type="int" value="3"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="93_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="fill" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="96">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="93_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weightx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="97">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="93_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weighty" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="98">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="93_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="insets" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="99">
+                          <ExpressionOrigin>
+                            <Value type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                              <Insets value="[10, 10, 10, 10]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="6_jPanel2"/>
+                      <StatementProvider type="CodeMethod">
+                        <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component, java.lang.Object"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="100_lPers0">
+                          <CodeVariable name="lPers0" type="8194" declaredType="javax.swing.JLabel"/>
+                          <ExpressionOrigin>
+                            <ExpressionProvider type="ComponentRef">
+                              <ComponentRef name="lPers0"/>
+                            </ExpressionProvider>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                        <CodeExpression id="93_gridBagConstraints"/>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="101_gridBagConstraints">
+                        <CodeVariable name="gridBagConstraints"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="CodeConstructor">
+                            <CodeConstructor class="java.awt.GridBagConstraints" parameterTypes=""/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeExpression">
+                        <CodeExpression id="101_gridBagConstraints"/>
+                      </StatementProvider>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="101_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="102">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="101_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridy" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="103">
+                          <ExpressionOrigin>
+                            <Value type="int" value="3"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="101_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="fill" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="104">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="101_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weightx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="105">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="101_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weighty" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="106">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="101_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="insets" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="107">
+                          <ExpressionOrigin>
+                            <Value type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                              <Insets value="[10, 10, 10, 10]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="6_jPanel2"/>
+                      <StatementProvider type="CodeMethod">
+                        <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component, java.lang.Object"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="108_lPers2">
+                          <CodeVariable name="lPers2" type="8194" declaredType="javax.swing.JLabel"/>
+                          <ExpressionOrigin>
+                            <ExpressionProvider type="ComponentRef">
+                              <ComponentRef name="lPers2"/>
+                            </ExpressionProvider>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                        <CodeExpression id="101_gridBagConstraints"/>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="109_gridBagConstraints">
+                        <CodeVariable name="gridBagConstraints"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="CodeConstructor">
+                            <CodeConstructor class="java.awt.GridBagConstraints" parameterTypes=""/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeExpression">
+                        <CodeExpression id="109_gridBagConstraints"/>
+                      </StatementProvider>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="109_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="110">
+                          <ExpressionOrigin>
+                            <Value type="int" value="2"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="109_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridy" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="111">
+                          <ExpressionOrigin>
+                            <Value type="int" value="3"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="109_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="fill" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="112">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="109_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weightx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="113">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="109_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weighty" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="114">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="109_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="insets" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="115">
+                          <ExpressionOrigin>
+                            <Value type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                              <Insets value="[10, 10, 10, 10]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="6_jPanel2"/>
+                      <StatementProvider type="CodeMethod">
+                        <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component, java.lang.Object"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="116_lPers3">
+                          <CodeVariable name="lPers3" type="8194" declaredType="javax.swing.JLabel"/>
+                          <ExpressionOrigin>
+                            <ExpressionProvider type="ComponentRef">
+                              <ComponentRef name="lPers3"/>
+                            </ExpressionProvider>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                        <CodeExpression id="109_gridBagConstraints"/>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="117_gridBagConstraints">
+                        <CodeVariable name="gridBagConstraints"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="CodeConstructor">
+                            <CodeConstructor class="java.awt.GridBagConstraints" parameterTypes=""/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeExpression">
+                        <CodeExpression id="117_gridBagConstraints"/>
+                      </StatementProvider>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="117_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="118">
+                          <ExpressionOrigin>
+                            <Value type="int" value="3"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="117_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridy" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="119">
+                          <ExpressionOrigin>
+                            <Value type="int" value="2"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="117_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="fill" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="120">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="117_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weightx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="121">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="117_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weighty" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="122">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="117_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="insets" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="123">
+                          <ExpressionOrigin>
+                            <Value type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                              <Insets value="[10, 10, 10, 10]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="6_jPanel2"/>
+                      <StatementProvider type="CodeMethod">
+                        <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component, java.lang.Object"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="124_lPers14">
+                          <CodeVariable name="lPers14" type="8194" declaredType="javax.swing.JLabel"/>
+                          <ExpressionOrigin>
+                            <ExpressionProvider type="ComponentRef">
+                              <ComponentRef name="lPers14"/>
+                            </ExpressionProvider>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                        <CodeExpression id="117_gridBagConstraints"/>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="125_gridBagConstraints">
+                        <CodeVariable name="gridBagConstraints"/>
+                        <ExpressionOrigin>
+                          <ExpressionProvider type="CodeConstructor">
+                            <CodeConstructor class="java.awt.GridBagConstraints" parameterTypes=""/>
+                          </ExpressionProvider>
+                        </ExpressionOrigin>
+                      </CodeExpression>
+                      <StatementProvider type="CodeExpression">
+                        <CodeExpression id="125_gridBagConstraints"/>
+                      </StatementProvider>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="125_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="126">
+                          <ExpressionOrigin>
+                            <Value type="int" value="2"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="125_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="gridy" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="127">
+                          <ExpressionOrigin>
+                            <Value type="int" value="2"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="125_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="fill" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="128">
+                          <ExpressionOrigin>
+                            <Value type="int" value="1"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="125_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weightx" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="129">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="125_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="weighty" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="130">
+                          <ExpressionOrigin>
+                            <Value type="double" value="1.0"/>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="125_gridBagConstraints"/>
+                      <StatementProvider type="CodeField">
+                        <CodeField name="insets" class="java.awt.GridBagConstraints"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="131">
+                          <ExpressionOrigin>
+                            <Value type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                              <Insets value="[10, 10, 10, 10]"/>
+                            </Value>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                      </Parameters>
+                    </CodeStatement>
+                    <CodeStatement>
+                      <CodeExpression id="6_jPanel2"/>
+                      <StatementProvider type="CodeMethod">
+                        <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component, java.lang.Object"/>
+                      </StatementProvider>
+                      <Parameters>
+                        <CodeExpression id="132_lPers15">
+                          <CodeVariable name="lPers15" type="8194" declaredType="javax.swing.JLabel"/>
+                          <ExpressionOrigin>
+                            <ExpressionProvider type="ComponentRef">
+                              <ComponentRef name="lPers15"/>
+                            </ExpressionProvider>
+                          </ExpressionOrigin>
+                        </CodeExpression>
+                        <CodeExpression id="125_gridBagConstraints"/>
+                      </Parameters>
+                    </CodeStatement>
+                  </LayoutCode>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="pAnswers">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="33" red="33" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                <Property name="columns" type="int" value="0"/>
+                <Property name="rows" type="int" value="2"/>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="lQuestion0">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="DialogInput" size="24" style="0"/>
+                    </Property>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="horizontalTextPosition" type="int" value="0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lAnswer0">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="DialogInput" size="24" style="1"/>
+                    </Property>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="horizontalTextPosition" type="int" value="0"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="pPreguntas">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="33" red="33" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                <Property name="columns" type="int" value="0"/>
+                <Property name="rows" type="int" value="8"/>
+                <Property name="verticalGap" type="int" value="10"/>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="bPregunt0">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="4d" green="4d" red="4d" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="DialogInput" size="16" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Has white hair?"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bPregunt0MouseClicked"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bPregunt0ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="bPregunt1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="4d" green="4d" red="4d" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="DialogInput" size="16" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Has brown or black hair?"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bPregunt1MouseClicked"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bPregunt1ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="bPregunt2">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="4d" green="4d" red="4d" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="DialogInput" size="16" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Has red hair?"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bPregunt2MouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="bPregunt3">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="4d" green="4d" red="4d" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="DialogInput" size="16" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Has scars?"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bPregunt3MouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="bPregunt4">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="4d" green="4d" red="4d" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="DialogInput" size="16" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Has long hair?"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bPregunt4MouseClicked"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bPregunt4ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="bPregunt6">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="4d" green="4d" red="4d" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="DialogInput" size="16" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Has a full beard?"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bPregunt6MouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="bPregunt7">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="4d" green="4d" red="4d" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="DialogInput" size="16" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Is it a female character?"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bPregunt7MouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="bPregunt8">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="4d" green="4d" red="4d" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="DialogInput" size="16" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Has only a mustache and goatee?"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bPregunt8MouseClicked"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="pButtons">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="33" red="33" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                <Property name="columns" type="int" value="0"/>
+                <Property name="rows" type="int" value="3"/>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel9">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[102, 38]"/>
+                    </Property>
+                  </Properties>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JButton" name="bQuestion">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="4d" green="4d" red="4d" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="DialogInput" size="18" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Question"/>
+                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[129, 41]"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bQuestionMouseClicked"/>
+                        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bQuestionMouseEntered"/>
+                        <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bQuestionMouseExited"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bQuestionActionPerformed"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel7">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                  </Properties>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JButton" name="bResolve">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="4d" green="4d" red="4d" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="DialogInput" size="18" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Resolve"/>
+                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[129, 41]"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bResolveMouseClicked"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bResolveActionPerformed"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel8">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[94, 38]"/>
+                    </Property>
+                  </Properties>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JButton" name="bSurrender">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="4d" green="4d" red="4d" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="DialogInput" size="18" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Surrender"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bSurrenderMouseClicked"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="pTimer">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="33" red="33" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                <Property name="columns" type="int" value="0"/>
+                <Property name="rows" type="int" value="2"/>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="DialogInput" size="24" style="1"/>
+                    </Property>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="TIMER"/>
+                    <Property name="horizontalTextPosition" type="int" value="0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lTimer">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="24" style="1"/>
+                    </Property>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="pMusic">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="33" red="33" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="bPlay">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Im&#xe1;genes/play.png"/>
+                    </Property>
+                    <Property name="alignmentY" type="float" value="0.0"/>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="null"/>
+                    </Property>
+                    <Property name="iconTextGap" type="int" value="0"/>
+                    <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                      <Insets value="[0, 0, 0, 0]"/>
+                    </Property>
+                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[10, 10]"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="" noResource="true"/>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[28, 25]"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bPlayMouseClicked"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                      <GridBagConstraints gridX="-1" gridY="-1" gridWidth="1" gridHeight="1" fill="0" ipadX="0" ipadY="0" insetsTop="0" insetsLeft="0" insetsBottom="0" insetsRight="0" anchor="10" weightX="0.0" weightY="0.0"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JButton" name="bPause">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="14" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Im&#xe1;genes/pause.png"/>
+                    </Property>
+                    <Property name="alignmentY" type="float" value="0.0"/>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="null"/>
+                    </Property>
+                    <Property name="borderPainted" type="boolean" value="false"/>
+                    <Property name="name" type="java.lang.String" value="" noResource="true"/>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[28, 25]"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bPauseMouseClicked"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                      <GridBagConstraints gridX="-1" gridY="-1" gridWidth="1" gridHeight="1" fill="0" ipadX="0" ipadY="0" insetsTop="0" insetsLeft="0" insetsBottom="0" insetsRight="0" anchor="10" weightX="0.0" weightY="0.0"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JSlider" name="sVolum">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="majorTickSpacing" type="int" value="10"/>
+                    <Property name="minimum" type="int" value="1"/>
+                    <Property name="minorTickSpacing" type="int" value="1"/>
+                    <Property name="toolTipText" type="java.lang.String" value=""/>
+                    <Property name="value" type="int" value="100"/>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[100, 16]"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sVolumStateChanged"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                      <GridBagConstraints gridX="-1" gridY="-1" gridWidth="1" gridHeight="1" fill="0" ipadX="0" ipadY="0" insetsTop="0" insetsLeft="0" insetsBottom="0" insetsRight="0" anchor="10" weightX="0.0" weightY="0.0"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
